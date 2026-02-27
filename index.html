@@ -260,7 +260,7 @@ function updateCountdown(targetDate) {
     } else if (diffDays === 0) {
         display.textContent = "È oggi 🥳❤";
     } else if (diffDays <= 7) {
-        display.textContent = "Manca meno di una settimana 😍";
+        display.textContent = "Mancano " + diffDays + " giorni 😍";
     } else {
         display.textContent = "Mancano " + diffDays + " giorni 😢";
     }
@@ -379,3 +379,4 @@ window.addEventListener("load", sendHeightToParent);
 
 </body>
 </html>
+
